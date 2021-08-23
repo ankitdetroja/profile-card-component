@@ -1,0 +1,47 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $darkCyan;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow: hidden;
+}
+
+.flex {
+  display: flex;
+
+  &-ai-c {
+    align-items: center;
+  }
+  &-jc-c {
+    justify-content: center;
+  }
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+
+  .bg-img-top {
+    width: 1500px;
+    position: absolute;
+    top: -80%;
+    left: -30%;
+  }
+  .bg-img-bottom {
+    width: 1300px;
+    position: absolute;
+    bottom: -90%;
+    right: -15%;
+  }
+}

@@ -1,0 +1,45 @@
+.container {
+  width: 480px;
+  height: 525px;
+  background: $white;
+  z-index: 1;
+  border-radius: 25px;
+  overflow: hidden;
+
+  &__image {
+    height: 192px;
+    position: relative;
+
+    .bg-img {
+      width: 100%;
+    }
+    .profile-img {
+      width: 150px;
+      border-radius: 50%;
+      position: absolute;
+      bottom: -43%;
+      right: 33%;
+      border: 8px solid white;
+    }
+  }
+
+  &__info {
+    height: auto;
+    padding-top: 100px;
+    width: 100%;
+    span {
+      flex: 0 0 100%;
+      font-size: 25px;
+      color: $veryDarkDesaturatedBlue;
+      font-weight: 700;
+
+      span {
+        color: $darkGrayisBlue;
+        font-weight: normal;
+      }
+    }
+
+    p {
+    }
+  }
+}
